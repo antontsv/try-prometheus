@@ -19,6 +19,6 @@ Vagrant.configure("2") do |config|
      rm "$prom_ver_full.tar.gz"
      [ -d "$prom_ver_full" ] || ( echo "Failed to get prometheus dir from archive." && exit 1)
      cd "$prom_ver_full" && nohup ./prometheus > prometheus.log 2>&1 &
-     echo "Open http://10.100.100.121:9090 in your browser"
+     echo "Open 😯  http://10.100.100.121:9090 in your browser"
   SHELL
 end
